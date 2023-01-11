@@ -3,7 +3,7 @@ import time
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-driver = webdriver.Chrome(executable_path='C:/selen/chromedriver.exe')
+driver = webdriver.Chrome(executable_path='[путь до хромдрайвер]/chromedriver.exe')
 base_url = ' https://b2c.passport.rt.ru/'
 driver.implicitly_wait(10)
 
