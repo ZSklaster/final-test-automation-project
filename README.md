@@ -8,9 +8,9 @@
 В файле test_rostelecom.py ввести путь до файла chromedriver.exe
 
 Для запуска тестов необходимы следующие бибилиотеки и их зависимости: 
-pytest
-time
-selenium 
+pytest,
+time,
+selenium, 
 А так-же установлен webdraiver для браузера Google Crome
 
 В консоли перейти в каталог с файлами test_rostelecom.py и config.py
